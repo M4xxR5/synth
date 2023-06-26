@@ -63,7 +63,7 @@ for (let i = 0; i < kb.length; i++) {
         whiteKeyIndex++
     }
 
-    key.addEventListener('mouseover', () => {
+    key.addEventListener('click', () => {
         createNote(notes[i], key)
     })
 
