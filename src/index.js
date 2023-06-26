@@ -14,8 +14,8 @@ for (let i = 1; i < 12; i++) {
 
 console.log(notes)
 
+const audioCtx = new AudioContext()
 function createNote(freq, key) {
-    const audioCtx = new AudioContext()
 
     const osc = audioCtx.createOscillator()
 
@@ -63,7 +63,7 @@ for (let i = 0; i < kb.length; i++) {
         whiteKeyIndex++
     }
 
-    key.addEventListener('click', () => {
+    key.addEventListener('mousedown', () => {
         createNote(notes[i], key)
     })
 
