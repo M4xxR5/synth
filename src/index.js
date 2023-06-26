@@ -1,4 +1,5 @@
-// TODO: polyrhythmic sequencer that use flexbox
+import css from './style.css'
+
 
 const kb = 'awsedftgyhuj'
 const noteNames = [
