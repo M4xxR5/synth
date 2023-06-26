@@ -1,0 +1,3 @@
+Para crear un legato entre dos notas puedes intentar manipular la envolvente de amplitud de tus notas para crear una transición suave entre ellas. También puedes experimentar con la superposición de notas y el uso de efectos como la reverberación para crear una sensación de continuidad entre las notas.
+
+Para crear un glissando entre dos notas puedes intentar manipular la frecuencia de tus notas para crear una transición suave entre ellas. Por ejemplo, puedes usar el método linearRampToValueAtTime o exponentialRampToValueAtTime en el AudioParam de frecuencia para crear una transición suave entre dos frecuencias.

@@ -1,0 +1,31 @@
+body {
+    font-family: sans-serif;
+    background-color: #000;
+    color: #fff;
+    user-select: none;
+    margin: 0;
+}
+
+#synth {
+    display: flex;
+    width: 100vw;
+    position: fixed;
+    bottom: 0;
+}
+
+button {
+    width: 8.3%;
+    height: 33vh;
+    background-color: white;
+    border: 1px solid black;
+}
+
+button.black {
+    background-color: #000;
+    z-index: 1;
+    position: relative;
+}
+
+button.active {
+    background-color: yellow;
+}
